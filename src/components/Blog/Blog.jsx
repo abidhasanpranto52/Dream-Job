@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="my-container space-y-2 py-10 p-3">
+    <div className="my-container space-y-2 py-10 p-3 bg-indigo-50">
       <h1 className="text-3xl  font-semibold text-blue-700">
         1. What is context Api?
       </h1>

@@ -1,6 +1,5 @@
 import React, { createContext, useContext } from "react";
-import { MapIcon, MapPinIcon } from "@heroicons/react/24/solid";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { JobDataContext } from "../../../../App";
 export const singleDetails = createContext([]);
 const DetailsJob = ({ job }) => {

@@ -3,7 +3,8 @@ import Lottie from 'lottie-react'
 import programming from '../Header/programming.json'
 import { ArrowRightIcon } from '@heroicons/react/24/solid'
 import { Link, useLoaderData } from 'react-router-dom'
-import Features from './Features'
+import Category from './Category'
+import FeatureJob from './FeatureJob'
 
 const Home = () => {
     return (
@@ -34,7 +35,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Features/>
+            <Category/>
+            <FeatureJob />
         </div>
 
 

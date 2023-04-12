@@ -1,23 +1,27 @@
 {
     "category": "Technology",
-    "cards": [
+    "features": [
       {
-        "logo": "https://example.com/technology-logo1.png",
+        "id": 1,
+        "logo": "https://cdn-icons-png.flaticon.com/512/2560/2560114.png",
         "name": "Software Development",
         "jobsAvailable": 50
       },
       {
-        "logo": "https://example.com/technology-logo2.png",
+        "id": 2,
+        "logo": "https://cdn-icons-png.flaticon.com/512/3716/3716795.png",
         "name": "Data Science",
         "jobsAvailable": 30
       },
       {
-        "logo": "https://example.com/technology-logo3.png",
+        "id": 3,
+        "logo": "https://cdn-icons-png.flaticon.com/512/4052/4052960.png",
         "name": "Web Development",
         "jobsAvailable": 25
       },
       {
-        "logo": "https://example.com/technology-logo4.png",
+        "id": 4,
+        "logo": "https://cdn-icons-png.flaticon.com/512/3234/3234104.png",
         "name": "Network Administration",
         "jobsAvailable": 20
       }

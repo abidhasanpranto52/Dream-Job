@@ -24,7 +24,7 @@ const Header = () => {
                     <li>
                         <NavLink
                             to='/'
-                            className={({ isActive }) => (isActive ? 'text-blue-700' : '')}
+                            className={({ isActive }) => (isActive ? 'active' : 'default')}
                         >
                             Home
                         </NavLink>
@@ -32,7 +32,7 @@ const Header = () => {
                     <li>
                         <NavLink
                             to='/statistics'
-                            className={({ isActive }) => (isActive ? 'text-blue-700' : '')}
+                            className={({ isActive }) => (isActive ? 'active' : 'default')}
                         >
                             Statistics
                         </NavLink>
@@ -40,7 +40,7 @@ const Header = () => {
                     <li>
                         <NavLink
                             to='/jobs'
-                            className={({ isActive }) => (isActive ? 'text-blue-700' : '')}
+                            className={({ isActive }) => (isActive ? 'active' : 'default')}
                         >
                             Applied Jobs
                         </NavLink>
@@ -48,13 +48,13 @@ const Header = () => {
                     <li>
                         <NavLink
                             to='/blog'
-                            className={({ isActive }) => (isActive ? 'text-blue-700' : '')}
+                            className={({ isActive }) => (isActive ? 'active' : 'default')}
                         >
                             Blog
                         </NavLink>
                     </li>
                 </ul>
-                    <button class="rounded text-white bg-indigo-500">Start Applying</button>
+                    <button class="btn rounded text-white bg-indigo-500">Start Applying</button>
                 {/* Mobile Navbar Section */}
                 <div className='lg:hidden'>
                     {/* Dropdown Open Button */}

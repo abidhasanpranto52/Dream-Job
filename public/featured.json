@@ -1,0 +1,26 @@
+{
+    "category": "Technology",
+    "cards": [
+      {
+        "logo": "https://example.com/technology-logo1.png",
+        "name": "Software Development",
+        "jobsAvailable": 50
+      },
+      {
+        "logo": "https://example.com/technology-logo2.png",
+        "name": "Data Science",
+        "jobsAvailable": 30
+      },
+      {
+        "logo": "https://example.com/technology-logo3.png",
+        "name": "Web Development",
+        "jobsAvailable": 25
+      },
+      {
+        "logo": "https://example.com/technology-logo4.png",
+        "name": "Network Administration",
+        "jobsAvailable": 20
+      }
+    ]
+  }
+  

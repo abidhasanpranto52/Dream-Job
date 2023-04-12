@@ -11,7 +11,7 @@ const Home = () => {
             <div className='mb-10 lg:max-w-lg  lg:pr-5 lg:mb-0'>
                 <div className='max-w-xl mb-6 lg:mt-8'>
                     
-                    <h1 className='text-5xl font-bold text-black mb-3'>One Step <br /> Closer To Your <br /><span className='text-indigo-700'> Dream Job</span></h1>
+                    <h1 className='text-6xl font-bold text-black mb-3'>One Step <br /> Closer To Your <br /><span className='text-indigo-700'> Dream Job</span></h1>
                     <p className='text-base text-gray-700 md:text-lg'>
                     Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.
                     </p>
@@ -27,12 +27,19 @@ const Home = () => {
             </div>
             {/* Lottie Animation */}
             <div className='relative lg:w-1/2 '>
-                <div className='w-full lg:w-4/5 lg:ml-auto h-56  sm:h-96'>
+                <div className='w-full lg:w-4/5 lg:ml-auto h-80 sm:h-96'>
                     <Lottie animationData={programming} loop={true} />
                 </div>
             </div>
         </div>
+
+
+
+
+// job category
+
+
     )
 }
 
-export default Home
+export default Home;
